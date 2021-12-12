@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Home Part */
+.navbar a{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  transition: all 0.2s ease-out;
+  margin-left: 20px;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover{
+  color: whitesmoke !important;
+}
+.navbar{
+  background-color: #343551 !important;
+
+}
+#header{
+  background-image: url('./images/banner.jpg');
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+.header-info{
+  width: 55%;
+  margin: 20vh  auto;
+}
+.header-info h1{
+  color: whitesmoke;
+  font-weight: 700;
+}
+.header-info p{
+  color: whitesmoke;
+  padding: 20px 0px;
+}
+.header-info button{
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 30px !important;
+}
+.header-info button:hover{
+  background: transparent !important;
+}
+/* End Home Part */
+
+/* Features Part */
+#features{
+  height: 100vh;
+  width: 100%;
+  background-color: #343551;
+}
+.f-info{
+  text-align: center;
+  margin-top: 15%;
+}
+.f-info i{
+  color: #E84545;
+  font-size: 45px;
+}
+.f-info h5{
+  font-weight: 700;
+  color: whitesmoke;
+  padding: 10px 0px;
+}
+.f-info p{
+  color: whitesmoke;
+}
+/* End Features Part */
+
+/* Team Part */
+#team{
+  height: 100vh;
+  width: 100%;
+}
+.single-person{
+  padding-top: 15%;
+}
+.single-person h4{
+  font-size: 22px;
+  padding: 10px 0px;
+  margin-bottom: -10px;
+}
+.single-person span{
+  padding: 10px 0px;
+  color: #E84545;
+  font-weight: 600;
+  font-size: 14px;
+}
+.single-person p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.social-icons i{
+  height: 35px;
+  width: 40px;
+  border: 1px solid grey;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 10px;
+  color: grey;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.social-icons i:first-child{
+  margin-left: 0px;
+}
+.social-icons i:hover{
+  background-color: #E84545;
+  color: whitesmoke;
+  border: 1px solid #E84545;
+}
+/* End Team Part */
+/* Donwload Part */
+#download{
+  height: 100vh;
+  width: 100%;
+  background-color: #343551;
+  padding-top: 30vh;
+}
+.download-content{
+  text-align: center;
+  
+}
+.download-content h3{
+  font-weight: normal;
+  color: whitesmoke;
+
+}
+.download-content h6{
+  font-weight: 700;
+  font-size: 14px;
+  padding: 20px 0px;
+  color: whitesmoke;
+}
+.download-content .btn{
+  background-color: #E84545 !important;
+  padding: 10px 40px !important;
+  border-radius: 30px;
+}
+.download-content .btn:hover{
+  background-color: transparent !important;
+  border: 1px solid #E84545;
+}
+/* End Download Part */
+/* Footer Part */
+#footer{
+  background-color: #4f5066;
+  text-align: center;
+  color: whitesmoke;
+}
+.single-ft{
+  padding: 50px 0px;
+}
+.single-ft .social-icons i{
+  color: whitesmoke;
+}
+.single-ft h6{
+  margin-bottom: 20px;
+}
+.single-ft p{
+  font-size: 14px;
+  width: 60%;
+  margin: 0px auto;
+}
+.copyright{
+  padding: 10px 0px;
+  color: #999;
+}
+/* End Footer */
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  #header{
+    height: 100%;
+  }
+  .header-info h1{
+    font-size: 28px;
+  }
+  #features{
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  #team{
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+}
+@media screen and (max-width: 576px) {
+  .header-info h1{
+    font-size: 20px;
+  }
+}
